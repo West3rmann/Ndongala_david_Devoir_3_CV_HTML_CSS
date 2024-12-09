@@ -1,0 +1,119 @@
+/* Global Styles */
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Header */
+header {
+    background-color: #00bcd4;
+    color: white;
+    display: flex;
+    padding: 20px;
+    width: 100%;
+}
+.header-left {
+    flex: 1;
+}
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid white;
+}
+.header-right {
+    flex: 2;
+    text-align: center;
+    padding-left: 20px;
+}
+
+header h1 {
+    margin-bottom:10px;
+}
+header p {
+    margin-top: 10px;
+}
+table{
+    margin: auto;
+    text-decoration: none;
+    text-align: left;
+}
+
+/* Sidebar */
+aside {
+    flex: 1;
+    background: #e3f2fd;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+}
+aside h3 {
+    color: #00bcd4;
+    margin-bottom: 10px;
+}
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside ul li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.color, .cube {
+    color: #00bcd4;
+    margin-right: 0%;
+}
+
+.qualities ul li, 
+.interests ul li {
+    
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 10px; 
+}
+
+/* Main content */
+main {
+    flex: 2;
+    padding: 20px;
+    background: white;
+}
+main section {
+    margin-bottom: 20px;
+}
+main h3 {
+    color: #00bcd4;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+main ul li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #00bcd4;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    margin-top: 20px;
+    margin-top: 0ch;
+}
